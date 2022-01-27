@@ -1,0 +1,29 @@
+:root{
+    /**********************************
+    **HEADER**************************/
+    --header-bg: #ffffff;
+    --header-color: black;
+
+    /**********************************
+    **HEADER SEARCH*******************/
+    --header-search-bg: #ffffff;
+    --header-search-color: rgba(0,0,0,.4);
+    --header-search-btn-bg: #f8f8f8;
+    --header-search-btn-color: black;
+
+    /**********************************
+    **SIDEBAR LEFT********************/
+    --sidebar-bg: #ffffff;
+    --sidebar-color: black;
+
+    /**********************************
+    **BACKGROUND**********************/
+    --bg: #f9f9f9;
+
+    /**********************************
+    **TAGS****************************/
+    --tag-bg: #f2f2f2;
+    --tag-color: black;
+    --tag-bg-active: black;
+    --tag-color-active: white;
+  }

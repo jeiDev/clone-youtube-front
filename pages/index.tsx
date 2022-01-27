@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
+import Layout from '~/components/layout'
+
 const Home: NextPage = () => {
   return (
-    <div style={{textAlign: "center"}}>
-      <h1>Youtube Clone</h1>
-    </div>
+    <Layout>
+        <h1 style={{textAlign: "center"}}>Youtube Clone</h1>
+    </Layout>
   )
 }
 

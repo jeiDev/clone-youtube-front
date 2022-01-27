@@ -1,0 +1,97 @@
+.header{
+    display: flex;
+    height: 56px;
+    min-height: 56px;
+    padding: 0 55px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background-color: var(--header-bg);
+}
+
+.header>div{
+    align-items: center;
+}
+
+/************************************
+** LEFT
+************************************/
+.header .left{
+    display: flex;
+}
+
+.header .left>.boxMenu{
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.header .left>.boxMenu svg{
+    fill: var(--header-color);
+}
+
+.header .left>.logo{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    height: 20px;
+    object-fit: contain;
+    padding-left: 30px;
+}
+
+.header .left>.logo>span{
+    position: relative;
+    top: -8px;
+    font-size: .6em;
+    padding-left: 5px;
+    font-weight: 400;
+    color: var(--header-color);
+}
+
+/************************************
+** CENTER
+************************************/
+.header .center{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.header .center>.boxSearch{
+    display: flex;
+}
+
+.header .center>.boxSearch>input{
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-right: none;
+    min-width: 350px;
+    background-color: transparent;
+}
+
+.header .center>.boxSearch>input:focus{
+    outline: none;
+}
+
+.header .center>.boxSearch>.buttonSearch{
+    width: 49px;
+    display: flex;
+    padding: 0 15px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    
+}
+
+.header .center>.boxSearch>.buttonSearch svg{
+    fill: rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+/************************************
+** RIGHT
+************************************/
+.header .right{
+    
+}
