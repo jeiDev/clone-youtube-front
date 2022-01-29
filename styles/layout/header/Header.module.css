@@ -39,6 +39,10 @@
     padding-left: 30px;
 }
 
+.header .left>.logo svg .logo-title{
+    fill: red!important;
+}
+
 .header .left>.logo>span{
     position: relative;
     top: -8px;
@@ -59,39 +63,77 @@
 
 .header .center>.boxSearch{
     display: flex;
+    background-color: var(--header-search-bg);
+    border: 1px solid var(--header-search-border);
+    border-radius: 30px;
+    overflow: hidden;
 }
+
 
 .header .center>.boxSearch>input{
     padding: 10px;
-    border-radius: 8px 0 0 8px;
-    border: 1px solid rgba(0, 0, 0, .1);
-    border-right: none;
+    color: var(--header-search-color);
     min-width: 350px;
     background-color: transparent;
+    border: none;
 }
 
 .header .center>.boxSearch>input:focus{
     outline: none;
 }
 
+.header .center>.boxSearch>input::placeholder{
+    color: var(--header-search-color);
+}
+
 .header .center>.boxSearch>.buttonSearch{
     width: 49px;
     display: flex;
     padding: 0 15px;
-    border: 1px solid rgba(0,0,0,.1);
-    border-left: none;
-    border-radius: 0 8px 8px 0;
-    
+    border: 1px solid var(--header-search-btn-border);
+    background-color: var(--header-search-btn-bg);
 }
 
 .header .center>.boxSearch>.buttonSearch svg{
-    fill: rgba(0,0,0,.5);
+    fill: var(--header-search-btn-color);
     cursor: pointer;
+}
+
+.header .center>.boxRecorder{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 15px;
+    background-color: var(--header-recorder-bg);
+}
+
+.header .center>.boxRecorder{
+    fill: var(--header-recorder-color);
 }
 
 /************************************
 ** RIGHT
 ************************************/
 .header .right{
-    
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.header .right>div{
+    display: flex;
+    height: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.header .right>div:last-child{
+    margin-right: 0;
+}
+
+.header .right>div svg{
+    fill: var(--header-color);
 }

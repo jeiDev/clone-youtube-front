@@ -3,10 +3,12 @@ import CameraRecordingIcon from "~/components/assets/svg/camera-recording.svg"
 import MenuSquaresIcon from "~/components/assets/svg/menu-squares.svg"
 import NotificationIcon from "~/components/assets/svg/notification.svg"
 
+import style from "~/styles/layout/header/Header.module.css"
+
 const HeaderRight = ({}: HeaderPropsI) => {
 
     return(
-        <div>
+        <div className={style.right}>
             <div>
                 <CameraRecordingIcon />
             </div>

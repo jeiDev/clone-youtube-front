@@ -14,7 +14,7 @@ const HeaderCenter = ({}: HeaderPropsI) => {
                     <SearchIcon />
                 </div>
             </div>
-            <div>
+            <div className={style.boxRecorder}>
                 <RecorderIcon />
             </div>
         </div>

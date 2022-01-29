@@ -1,15 +1,22 @@
 :root{
     /**********************************
     **HEADER**************************/
-    --header-bg: black;
+    --header-bg: #202020;
     --header-color: white;
 
     /**********************************
     **HEADER SEARCH*******************/
-    --header-search-bg: #ffffff;
-    --header-search-color: rgba(0,0,0,.4);
-    --header-search-btn-bg: #f8f8f8;
-    --header-search-btn-color: black;
+    --header-search-bg: #121212;
+    --header-search-color: #ffffffe0;
+    --header-search-border: #303030;
+    --header-search-btn-border: #303030;
+    --header-search-btn-bg: rgb(37, 37, 37);
+    --header-search-btn-color: #fff;
+
+    /**********************************
+    **HEADER RECORDER*****************/
+    --header-recorder-bg: #181818;
+    --header-recorder-color: white;
 
     /**********************************
     **SIDEBAR LEFT********************/
