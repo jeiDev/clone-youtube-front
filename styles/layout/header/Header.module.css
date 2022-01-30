@@ -2,7 +2,7 @@
     display: flex;
     height: 56px;
     min-height: 56px;
-    padding: 0 55px;
+    padding: 0 35px;
     align-items: center;
     border-bottom: 1px solid rgba(0,0,0,.1);
     background-color: var(--header-bg);

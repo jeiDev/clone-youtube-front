@@ -1,0 +1,52 @@
+.box{
+    position: relative;
+}
+
+.box .boxList{
+    background-color: var(--header-bg);
+    position: absolute;
+    width: 240px;
+    right: 0;
+    bottom: -212px;
+    border: 1px solid var(--header-border-color);
+    color: var(--header-color);
+    border-top: none;
+}
+
+.box>.boxList ul{
+    padding: 0;
+    margin: 0;
+}
+
+.box ul li{
+    list-style: none;
+}
+
+.box>.boxList>ul>li{
+    border-bottom: 1px solid var(--header-border-color);
+}
+
+.box>.boxList>ul>li:last-child{
+    border-bottom: none;
+}
+
+.box>.boxList>ul>li>ul{
+    padding: 5px 0;
+}
+
+.box>.boxList>ul>li .list{
+    padding: 10px 20px;
+    font-size: .8em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.box>.boxList>ul>li .list:hover{
+    background-color: rgba(212, 212, 212, .4);
+}
+
+.boxIcon{
+    height: 22px;
+    margin-right: 15px;
+}

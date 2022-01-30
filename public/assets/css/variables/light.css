@@ -3,6 +3,7 @@
     **HEADER**************************/
     --header-bg: #ffffff;
     --header-color: black;
+    --header-border-color: rgba(0,0,0,.1);
 
     /**********************************
     **HEADER SEARCH*******************/

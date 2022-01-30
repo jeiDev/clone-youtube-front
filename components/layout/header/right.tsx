@@ -1,7 +1,8 @@
 import { HeaderPropsI } from "~/interfaces/layout"
-import CameraRecordingIcon from "~/components/assets/svg/camera-recording.svg"
-import MenuSquaresIcon from "~/components/assets/svg/menu-squares.svg"
+
 import NotificationIcon from "~/components/assets/svg/notification.svg"
+import Applications from "~/components/app/Applications"
+import Video from "~/components/app/Video"
 
 import style from "~/styles/layout/header/Header.module.css"
 
@@ -9,12 +10,8 @@ const HeaderRight = ({}: HeaderPropsI) => {
 
     return(
         <div className={style.right}>
-            <div>
-                <CameraRecordingIcon />
-            </div>
-            <div>
-                <MenuSquaresIcon />
-            </div>
+            <Video />
+            <Applications />
             <div>
                 <NotificationIcon />
             </div>
