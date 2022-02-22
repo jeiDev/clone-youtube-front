@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect, ReactEventHandler } from "react"
+import { useRef, useState, useEffect } from "react"
 
 import MenuSquaresIcon from "~/components/assets/svg/menu-squares.svg"
 import YTArtists from "~/components/assets/svg/icons/yt-artists.svg"
